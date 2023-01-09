@@ -6,8 +6,7 @@
 
 
 
-##### Terraform EKS
-- https://github.com/quickbooks2018/terraform-aws-eks
+
 
 
 ##### Jenkins Setup on GCP GKE Cluster
