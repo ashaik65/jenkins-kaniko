@@ -1,4 +1,4 @@
-- https://cloudgeeks.ca
+
 
 - https://blog.devstream.io/posts/devsecops-jenkins-in-k8s-with-secret-scan/
 
