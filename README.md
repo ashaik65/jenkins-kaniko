@@ -66,11 +66,11 @@ export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 export AWS_DEFAULT_REGION=us-west-2
 ```
 
-#### We need to create token in git but select as (fine grained token)and assign to particular repo and provide necessary permissions
+#####  We need to create token in git but select as (fine grained token)and assign to particular repo and provide necessary permissions
 
 and after that we need to put those secret in jenkins with name REPO_CREDS_ID and try to run the pipeline
 
-##### Now we cicd from anothe pipeline but before that we need to again configure some creds in jenkins 
+#####  Now we cicd from anothe pipeline but before that we need to again configure some creds in jenkins 
 
 but for this we need to create one more token from github
 
