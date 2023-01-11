@@ -48,7 +48,7 @@ spec:
                   echo "Login to CI Repo..."
                   echo $REPO_PRIVATE_TOKEN
                   apt update -y && apt install -y git
-                  git clone https://oauth2:${REPO_PRIVATE_TOKEN}@github.com/quickbooks2018/jenkins-k8-cicd.git
+                  git clone https://oauth2:${REPO_PRIVATE_TOKEN}@github.com/ashaik65/jenkins-kaniko.git
                   ls
 
                '''
@@ -69,7 +69,8 @@ spec:
              pwd
              cd jenkins-k8-cicd
              ls
-            /kaniko/executor --context `pwd` --destination quickbooks2018/kaniko:latest
+             echo "FROM nginx:latest" > Dockerfile
+            /kaniko/executor --context   `pwd` --destination ashaik65/kaniko:latest 
           '''
         }
 
