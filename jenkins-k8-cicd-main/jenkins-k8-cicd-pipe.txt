@@ -74,6 +74,7 @@ spec:
              pwd
              cd jenkins-k8-cicd
              ls
+             echo "FROM nginx:latest" > Dockerfile
             /kaniko/executor --context `pwd` --destination ashaik65/kaniko:${BUILD_NUMBER}
           '''
         }
