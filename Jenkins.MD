@@ -73,6 +73,7 @@ sudo systemctl restart nginx
 6. Install Certbot, the Let's Encrypt client, by running the following commands:
 
 sudo apt-get update
+
 sudo apt-get install certbot python3-certbot-nginx
 
 7. Obtain an SSL certificate for your Jenkins domain name using Certbot:
