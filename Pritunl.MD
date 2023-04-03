@@ -6,27 +6,34 @@ echo "deb http://repo.pritunl.com/stable/apt focal main" | sudo tee /etc/apt/sou
 
 2. Add the Pritunl GPG key:
 sudo apt-get install dirmngr gnupg -y
+
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv 7568D9BB55FF9E5287D586017AE645C0CF8E292A
 
 3. Update the APT package cache:
 sudo apt-get update
 
 4. Install MongoDB:
+
 sudo apt-get install mongodb-server -y
 
 5. Start the MongoDB service:
+
 sudo systemctl start mongodb
 
 6. Enable MongoDB to start on boot:
+
 sudo systemctl enable mongodb
 
 7. Install Pritunl server:
+
 sudo apt-get install pritunl -y
 
 8. Start the Pritunl service:
+
 sudo systemctl start pritunl
 
 9. Enable Pritunl to start on boot:
+
 sudo systemctl enable pritunl
 
 
