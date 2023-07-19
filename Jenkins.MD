@@ -61,6 +61,7 @@ Note: Replace jenkins.example.com with your Jenkins domain name.
 ```
 
 4. Create a symbolic link to the server block configuration file in the /etc/nginx/sites-enabled/ directory:
+```yaml
 
 sudo ln -s /etc/nginx/sites-available/jenkins /etc/nginx/sites-enabled/
 
