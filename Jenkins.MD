@@ -34,9 +34,8 @@ After that we need to check using jenkins using ec2 instance id for example:- 34
 
 1. Install NGINX on your server if it's not already installed. You can do this by running the following command:
 
-                     sudo apt-get update
-
-                     sudo apt-get install nginx
+      sudo apt-get update
+      sudo apt-get install nginx
 
 2. Create a new server block configuration file for Jenkins. You can do this by creating a new file in the /etc/nginx/sites-available/ directory. For example:
 
