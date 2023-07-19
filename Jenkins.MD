@@ -44,7 +44,6 @@ vi /etc/nginx/sites-available/jenkins
 
 3. Add the following content to the file:
 
-```yaml
 server {
     listen 80;
     server_name jenkins.example.com;
