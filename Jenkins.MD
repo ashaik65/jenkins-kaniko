@@ -92,7 +92,6 @@ That's it! You have successfully configured SSL on Jenkins using Let's Encrypt a
 
 ### for jenkins run behind vpn need to configure like this ###
 vi /etc/nginx/sites-available/jenkins
-```yaml
 
 server {
     server_name jenkinsdev.techmobi.site;
