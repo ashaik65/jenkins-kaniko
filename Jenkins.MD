@@ -34,7 +34,7 @@ After that we need to check using jenkins using ec2 instance id for example:- 34
 
 1. Install NGINX on your server if it's not already installed. You can do this by running the following command:
 
-                   sudo apt-get update
+    sudo apt-get update
 
 sudo apt-get install nginx
 
