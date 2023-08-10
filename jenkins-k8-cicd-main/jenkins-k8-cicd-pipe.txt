@@ -72,7 +72,7 @@ spec:
           sh '''#!/busybox/sh
              ls
              pwd
-             cd jenkins-kaniko/jenkins-k8-cicd
+             cd jenkins-kaniko/jenkins-k8-cicd-main
              ls
             /kaniko/executor --context `pwd` --destination ashaik65/kaniko:${BUILD_NUMBER}
           '''
