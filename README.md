@@ -67,8 +67,8 @@ export AWS_DEFAULT_REGION=us-west-2
 ```
 
 #####  We need to create token in git but select as (fine grained token)and assign to particular repo and provide necessary permissions
-
-and after that we need to put those secret in jenkins with name REPO_CREDS_ID and try to run the pipeline
+1. create secret for jenkins-kaniko repo as smarttech-ci as fine grained token and provide access to jenkins-kaniko repo and paste that credentials in manged jenkins and give named as REPO_CREDS_ID
+2. create one more secret named as  smarttech-cd as fine grained token and provide access to k8-helm repo  and paste that credentials in manged jenkins and give named as HELM_REPO_CREDS_ID
 
 #####  Now we cicd from anothe pipeline but before that we need to again configure some creds in jenkins 
 
